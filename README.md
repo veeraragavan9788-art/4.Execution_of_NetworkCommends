@@ -58,7 +58,7 @@ while True:
     ip=input("Enter the website you want to ping ") 
     s.send(ip.encode()) 
     print(s.recv(1024).decode())
-    ```
+```
 ## Output
 
 <img width="1008" height="295" alt="image" src="https://github.com/user-attachments/assets/1fef5cdc-f510-4672-a52b-6fafe54f0141" />
